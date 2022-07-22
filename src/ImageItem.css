@@ -1,0 +1,65 @@
+.animal-container {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    width: 285px;
+    height: 345px;
+}
+
+.animal-image {
+    width: 285px;
+    height: 285px;
+}
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 135px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a5a5a5;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button-name {
+    font-size: 10px;
+    color: #323232;
+}
+
+.like-clicked {
+    width: 135px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a5a5a5;
+    cursor: pointer;
+    background-color: #006ebe;
+}
+
+.like-clicked-name {
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.hate-clicked {
+    width: 135px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a5a5a5;
+    cursor: pointer;
+    background-color: #d74b00;
+}
+
+.hate-clicked-name {
+    font-size: 10px;
+    color: #ffffff;
+}

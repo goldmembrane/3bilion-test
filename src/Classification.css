@@ -1,0 +1,57 @@
+.title-box {
+    margin: auto;
+    margin-top: 60px;
+    width: 1110px;
+    height: 83px;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.classification-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 1110px;
+    height: 830px;
+    display: flex;
+}
+
+.like-animal-container {
+    width: 540px;
+    height: 830px;
+    border: 2px solid #006ebe;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hate-animal-container {
+    width: 540px;
+    height: 830px;
+    border: 2px solid #d47b00;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.like-title {
+    font-size: 24px;
+    color: #006ebe;
+    font-weight: bold;
+}
+
+.hate-title {
+    font-size: 24px;
+    color: #d47b00;
+    font-weight: bold;
+}

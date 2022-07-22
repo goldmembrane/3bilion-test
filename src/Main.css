@@ -1,0 +1,84 @@
+.title-box {
+    margin: auto;
+    margin-top: 60px;
+    width: 1110px;
+    height: 83px;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    margin-top: 30px;
+    width: 1110px;
+    height: 830px;
+    display: flex;
+}
+
+.animal-image-container {
+    width: 600px;
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divide-like-animal-container {
+    margin-left: 80px;
+    width: 400px;
+    height: 830px;
+}
+
+.animal-collection {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #323232
+}
+
+.animal-label {
+    font-weight: bold;
+    font-size: 24px;
+    color: #323232;
+    margin-bottom: 60px;
+}
+
+.like-animal-label {
+    font-weight: bold;
+    font-size: 24px;
+    color: #006ebe;
+    margin-bottom: 60px;
+}
+
+.hate-animal-label {
+    font-weight: bold;
+    font-size: 24px;
+    color: #d74b00;
+    margin-bottom: 60px;
+}
+
+.divide-favorite-animals-button {
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    border: none;
+    background-color: #dcdcdc;
+    text-align: center;
+    line-height: 80px;
+}
+
+.divide-animals-button-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #323232;
+    text-decoration: none;
+}
